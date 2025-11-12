@@ -1,16 +1,4 @@
 # config.py
-
-TELEGRAM_BOT_TOKEN = "8551977563:AAEqsJXfjNGw0VL0jY10PcTeC3Hz9gNaDtQ"
-ADMIN_CHAT_ID = 674076768  # твой Telegram ID
-
-MIN_VOLUME_USD = 100_000      # снижено для теста
-CHECK_INTERVAL_SECONDS = 30   # проверка каждые 30 сек
-WATCHLIST = ["BTCUSDT", "ETHUSDT", "SOLUSDT", "PEPEUSDT"]
-
-
-
-
-# config.py
 import os
 
 TELEGRAM_BOT_TOKEN = os.getenv("8551977563:AAEqsJXfjNGw0VL0jY10PcTeC3Hz9gNaDtQ")
